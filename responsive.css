@@ -1,0 +1,144 @@
+/* Responsive Styles */
+
+@media screen and (max-width: 991px) {
+  .contentH1 {
+    font-family: futuraMediumBeyond;
+    font-size: calc(4.125em + 0.01vw);
+  }
+  .contentTxt {
+    width: 100%;
+    font-size: calc(1.4em + 0.01vw);
+    line-height: 32px;
+  }
+  .contentTxt {
+    width: 100%;
+  }
+  .add-flex {
+    display: block;
+  }
+  .beyond-overlay {
+    margin: 0 auto;
+  }
+  .overlay-header {
+    width: 85%;
+    margin: 0 auto;
+    justify-content: start;
+  }
+  #beyond-lp {
+    padding: 0;
+  }
+  .shipping-wrapper .container, .discount-wrapper .container {
+    padding: 0;
+    width: 100%;
+  }
+  .overlay-textbx p {
+    font-family: futuraMediumBeyond;
+    font-size: calc(1.15em - .2vw);
+    line-height: 27px;
+    width: 85%;
+    text-align: left;
+  }
+  .overlay-h1 {
+    font-size: calc(38px - .1vw);
+  }
+  .overlay-img {
+    width: 50%;
+    height: auto;
+  }
+  .btn-wrapper {
+    width: 85%;
+    margin: 0 auto;
+    right: 2px;
+  }
+  .mobile-white {
+    background: white;
+  }
+  .customBg {
+    height: 166px;
+  }
+  .customBg img {
+    width: 280px;
+  }
+  .rmP {
+    overflow: hidden;
+    height: 100%;
+  }
+  .cstH2 {
+    height: 150px;
+  }
+  .cstH3 {
+    height: 300px !important;
+  }
+  .contentH1 {
+    width: 100%;
+  }
+  .text-box-padding {
+    padding: 2em 2em !important;
+  }
+  #addM_Bot {
+    margin-bottom: 1em;
+  }
+}
+
+
+/* iPhone 7/8 Plus */
+
+@media screen and (max-width: 620px) {
+  .beyond-header_b {
+    background-image: url('./assets/mobile/mobile_29_header.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 124px;
+    width: 100%;
+  }
+  .overlay-h1 {
+    font-size: calc(6vw - 1px);
+  }
+  .overlay-img {
+    min-width: 150px;
+    margin-left: 8px;
+    display: block;
+    bottom: 3px;
+    position: relative;
+  }
+  .beyond-overlay {
+    margin: 0 auto;
+    padding: 8px;
+  }
+  .overlay-header, .overlay-textbx p, .btn-wrapper {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .overlay-h1 {
+    margin-right: 4px;
+  }
+  .customBg img {
+      width: 260px;
+  }
+  .text-box-padding {
+    padding: 2em 1em !important;
+  }
+  .contentH1 {
+    font-family: futuraMediumBeyond;
+    font-size: calc(2.5em + 0.01vw);
+  }
+  .contentTxt {
+    width: 100%;
+    font-size: calc(1em + 0.01vw);
+    line-height: 28px;
+  }
+}
+
+/* iPAD */
+
+@media screen and (max-width: 769px) and (min-width: 621px) {
+  .contentH1 {
+    font-family: futuraMediumBeyond;
+    font-size: calc(4.125em + 0.01vw);
+  }
+  .contentTxt {
+    width: 100%;
+    font-size: calc(1.4em + 0.01vw);
+    line-height: 32px;
+  }
+}

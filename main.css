@@ -1,0 +1,324 @@
+/*
+  BEYOND[DOT]COM Concept 2 Styles
+  Developer: Ivan Baena
+*/
+
+#beyond-lp {
+  padding: 0;
+  width: 100%;
+}
+
+.fullH {
+  height: 100%;
+}
+
+.add-flex {
+  display: flex;
+}
+
+.flex-left {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  align-content: center;
+  flex-wrap: wrap;
+}
+
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  flex-wrap: wrap;
+}
+
+
+/* NavBar Styles */
+
+.beyond-nav {
+  width: 100%;
+  height: 70px;
+  box-shadow: -2px 1px 10px rgba(0, 0, 0, 0.6);
+  margin: 0 auto;
+  border-top: 3px solid rgba(79, 102, 196, 1);
+  position: absolute;
+  top: 0;
+  background-color: white;
+}
+
+.beyond-nav .container {
+  height: 100%;
+}
+
+.beyond-nav-text {
+  font-size: calc(1.5em + 0.01vw);
+  font-family: futuraBookBeyond !important;
+  color: #000000;
+  margin: 0;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.bbb-logo {
+  max-width: 121px;
+}
+
+
+/* Header Styles */
+
+.beyond-header {
+  background-image: url('./assets/header-beyond.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 424px;
+  margin-top: 70px;
+}
+
+.beyond-overlay {
+  height: 304px;
+  background: rgba(255, 255, 255, .8);
+  flex-wrap: wrap;
+  width: 100%;
+  max-width: 556px;
+  padding: 2.2em;
+}
+
+.overlay-header {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  align-content: center;
+}
+
+.overlay-h1 {
+  font-family: futuraMediumBeyond;
+  flex-basis: 38%;
+  position: relative;
+  font-size: calc(38px - .1vw);
+  color: #263692;
+  margin-right: 10px;
+}
+
+.overlay-h1::after {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 0;
+  width: 50%;
+  bottom: -2px;
+  left: 0%;
+  border-bottom: 3px solid #06AFF1;
+}
+
+.beyond-wrap {
+  flex-basis: 50%;
+}
+
+.overlay-img {
+  min-width: 160px;
+}
+
+.overlay-textbx {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  margin: .4em auto;
+}
+
+.overlay-textbx p {
+  font-family: futuraMediumBeyond;
+  font-size: calc(1.125em + 0.01vw);
+  line-height: 30px;
+}
+
+.btn-wrapper {}
+
+.overlay-cta {
+  width: 213px;
+  height: 44px;
+  border: 1px solid #FF6B23;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #FF6B23;
+  color: black;
+  font-size: 17px;
+  margin-top: 8px;
+  color: white;
+  transition: all .1s ease-in-out;
+  font-family: futuraLightBeyond;
+}
+
+.overlay-cta:hover {
+  text-decoration: none;
+  background: white;
+  color: #FF6B23;
+}
+
+
+/* Beyond Header #2 */
+
+.beyond-header_b {
+  background-image: url('./assets/header-beyond_2.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 124px;
+  width: 100%;
+}
+
+.header_b_T1 {
+  font-family: futuraHeavyBeyondOblique;
+  font-size: calc(2.8125em + 0.01vw);
+  width: 100%;
+  text-align: center;
+  margin: 0 auto;
+  color: white;
+}
+
+.header_b_T2 {
+  font-family: futuraMediumBeyondOblique;
+  font-size: calc(1em + 0.01vw);
+  width: 100%;
+  text-align: center;
+  margin: 0 auto;
+  color: white;
+}
+
+
+/*Discount Wrapper Styles*/
+
+.discount-wrapper {
+  width: 100%;
+  background-color: #fafafa;
+}
+
+.customBg {
+  height: 100%;
+}
+
+.customBg img {
+  width: 359px;
+  display: block;
+  margin: 0 auto;
+}
+
+.cstH {
+  height: 300px;
+}
+
+.contentH1 {
+  font-family: futuraMediumBeyond;
+  font-size: calc(3.125em + 0.01vw);
+}
+
+.contentTxt {
+  font-size: calc(1.125em + 0.01vw);
+  font-family: futuraBookBeyond;
+  line-height: 26px;
+}
+
+
+/*Shipping Styles */
+
+.shipping-wrapper {
+  width: 100%;
+}
+
+.customBg2 {
+  height: 100%;
+}
+
+.customBg2 img {
+  width: 100%;
+  display: block;
+}
+
+.cstH2 {
+  height: 320px;
+}
+
+.contentH1 {
+  font-family: futuraMediumBeyond;
+  font-size: calc(3.125em + 0.01vw);
+}
+
+.contentTxt {
+  font-size: calc(1.125em + 0.01vw);
+  font-family: futuraBookBeyond;
+  line-height: 26px;
+}
+
+
+/*remove padding images to touch */
+
+.shipping-wrapper .rmP, .discount-wrapper .rmP {
+  padding: 0;
+}
+
+
+/* Footer Styles */
+
+.beyond-footer {
+  background: #FAFAFA;
+  width: 100%;
+  height: 56px;
+}
+
+.footer-text {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  height: 100%;
+  width: 100%;
+  font-size: calc(0.75em + 0.01vw);
+  font-family: futuraMediumBeyond !important;
+  margin: 0 auto;
+}
+
+#addM_Bot {
+  margin-bottom: 4em;
+}
+
+
+/* Fonts */
+@font-face {
+  font-family: futuraLightBeyond;
+  src: url('./assets/fonts/Futura_Std/FuturaStd-Light.otf');
+}
+
+@font-face {
+  font-family: futuraBookBeyond;
+  src: url('./assets/fonts/Futura_Std/FuturaStd-Book.otf');
+}
+
+
+/*Futura Medium*/
+
+@font-face {
+  font-family: futuraMediumBeyond;
+  src: url('./assets/fonts/Futura_Std/FuturaStd-Medium.otf');
+}
+
+@font-face {
+  font-family: futuraMediumBeyondOblique;
+  src: url('./assets/fonts/Futura_Std/FuturaStd-MediumOblique.otf');
+}
+
+
+/*Futura Heavy*/
+
+@font-face {
+  font-family: futuraHeavyBeyond;
+  src: url('./assets/fonts/Futura_Std/FuturaStd-Heavy.otf');
+}
+
+@font-face {
+  font-family: futuraHeavyBeyondOblique;
+  src: url('./assets/fonts/Futura_Std/FuturaStd-BoldOblique.otf');
+}
+
+html {
+  font-size: 6vw;
+}
